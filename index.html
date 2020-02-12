@@ -11,18 +11,22 @@ not displayed. The information between the BODY and /BODY tags is displayed.-->
 <!-- The information between the BODY and /BODY tags is displayed.-->
 <body>
 <h1>Menu</h1>
-<p>Be <b>bold</b> in stating your key points. Put them in a list: </p>
+<p>My factorial program : 
+  def fac():
+  num = int(input("Enter a number: "))
+  factorial = 1
+  # check if the number is negative, positive or zero
+  if num < 0:
+    print("Sorry, factorial does not exist for negative numbers")
+  elif num == 0:
+    print("The factorial of 0 is 1")
+  else:
+    for i in range(1,num + 1):
+        factorial = factorial*i
+    print("The factorial of",num,"is",factorial)  
+  fac()
+             </p>
 <ul>
-<li>The first item in your list</li>
-<li>The second item; <i>italicize</i> key words</li>
-</ul>
-<p>Improve your image by including an image. </p>
-<p><img src="http://www.mygifs.com/CoverImage.gif" alt="A Great HTML Resource"></p>
-<p>Add a link to your favorite <a href="https://www.dummies.com/">Web site</a>.
-Break up your page with a horizontal rule or two. </p>
 <hr>
-<p>Finally, link to <a href="page2.html">another page</a> in your own Web site.</p>
-<!-- And add a copyright notice.-->
-<p>&#169; Wiley Publishing, 2011</p>
 </body>
 </html>
